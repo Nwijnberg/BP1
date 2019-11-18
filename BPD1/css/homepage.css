@@ -1,0 +1,43 @@
+body {
+    background: white;
+}
+
+.homepageText {
+    color: black;
+    text-align: center;
+    margin-left: 80px;
+    width: 90%;
+}
+
+.navigation {
+    list-style-type: none;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+    text-align: center;
+    background-color: darkred;
+}
+
+.navigationItems {
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.navigationItems:hover {
+    background-color: white;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.navigationItemActive {
+    background-color: gray;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+}
