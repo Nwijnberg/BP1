@@ -1,43 +1,59 @@
-body {
+body
+{
     background: white;
 }
 
-.homepageText {
-    color: black;
-    text-align: center;
-    margin-left: 80px;
-    width: 90%;
+@media screen and (max-width: 400px) {
+    .homepageNavBox {
+        flex-direction: column;
+    }
 }
 
-.navigation {
-    list-style-type: none;
-    display: block;
-    margin: 0px;
-    padding: 0px;
-    width: 200px;
-    height: 100%;
-    position: fixed;
-    overflow: auto;
-    text-align: center;
-    background-color: darkred;
-}
-
-.navigationItems {
+.homepageNavBox {
     color: white;
-    padding: 8px 16px;
+    background: black;
+    display: flex;
+    justify-content: space-around;
     text-decoration: none;
+    margin: -8px;
 }
 
-.navigationItems:hover {
-    background-color: white;
-    color: black;
-    padding: 8px 16px;
-    text-decoration: none;
+.homepageNavBox h2 {
+    font-size: 25px;
+    margin-top: 18px;
+    margin-bottom: 18px;
 }
 
-.navigationItemActive {
-    background-color: gray;
+.homepageNavBox h1 {
+    font-size: 30px;
+    margin-top: 6%;
+    margin-bottom: 13px;
+}
+
+.homepageNavBox a {
+    text-decoration: none;
+    color: red;
+}
+
+.homepageNavBox a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+.homepageNavBox a:visited {
     color: white;
-    padding: 8px 16px;
-    text-decoration: none;
+}
+
+.homepageImages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top:4%;
+}
+
+.homepageImages img {
+    border: 5px solid black;
+    margin-right: 1%;
+    margin-top: 5%;
+    size: 10%;
 }

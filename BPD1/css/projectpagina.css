@@ -1,3 +1,138 @@
 body {
+    background: white;
+}
+
+@media screen and (max-width: 400px) {
+    .projectpaginaNavBox{
+        flex-direction: column;
+    }
+}
+
+.projectpaginaNavBox {
+    color: white;
     background: black;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    margin: -8px;
+}
+
+.projectpaginaNavBox h2 {
+    font-size: 25px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.projectpaginaNavBox h1 {
+    font-size: 30px;
+    margin-top: 6%;
+    margin-bottom: 13px;
+}
+
+.projectpaginaNavBox a {
+    text-decoration: none;
+    color: red;
+}
+
+.projectpaginaNavBox a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+.projectpaginaNavBox a:visited {
+    color: white;
+}
+
+.projectpaginaText {
+    margin-left: 25%;
+    margin-top: 50px;
+    margin-bottom: 75px;
+}
+
+.Tron {
+    margin-left: 25%;
+    margin-right: 400px;
+    margin-bottom: 10px;
+}
+
+.TronImg {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 75px;
+}
+
+.Abraxas {
+    margin-left: 25%;
+    margin-right: 400px;
+    margin-bottom: 10px;
+}
+
+.AbraxasImg {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 75px;
+}
+
+.Corrupted {
+    margin-left: 25%;
+    margin-right: 400px;
+    margin-bottom: 10px;
+}
+
+.CorruptedImg {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 75px;
+}
+
+.Platforms {
+    margin-left: 25%;
+    margin-right: 400px;
+    margin-bottom: 10px;
+}
+
+.PlatformsImg {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 75px;
+}
+
+.CorruptedPlatforms {
+    margin-left: 25%;
+    margin-right: 400px;
+    margin-bottom: 10px;
+}
+
+.CorruptedPlatformsImg {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 75px;
+}
+
+.Disc {
+    margin-left: 25%;
+    margin-right: 400px;
+    margin-bottom: 75px;
+}
+
+.CorruptedDiscs {
+    margin-left: 25%;
+    margin-right: 400px;
+    margin-bottom: 75px;
+}
+
+.Healthbar {
+    margin-left: 25%;
+     margin-right: 400px;
+    margin-bottom: 75px;
+
+ }
+
+.TitleText {
+    margin-left: 20%;
+    margin-right: 400px;
+}
+
+h3 {
+    margin-bottom: -10px;
 }
