@@ -21,7 +21,7 @@ body {
 
 .NavBox h1 {
     font-size: 30px;
-    margin-top: 6%;
+    margin-top: 1%;
     margin-bottom: 13px;
 }
 
@@ -59,7 +59,7 @@ body {
 }
 
 .dropdown-content a {
-    color: black;
+    color: white;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -93,6 +93,8 @@ body {
     .allTextOnPage div {
         margin-left: 20%;
         margin-right: 20%;
+
+
     }
 
     img {

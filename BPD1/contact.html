@@ -11,10 +11,10 @@
 
 <header>
     <div class="NavBox">
-        <a href="personalia.html"><h2>Personalia</h2></a>
+        <h2><a href="personalia.html">Personalia</a></h2>
 
         <div class="dropdown">
-            <button class="dropbtn"><a href="projecten.html"><h2>Projecten</h2></a></button>
+            <h2><a class="dropbtn" href="projecten.html">Projecten</a></h2>
             <div class="dropdown-content">
                 <a href="projecten.html#TronCorruption">Tron: Corruption</a>
                 <a href="projecten.html#DivingForTreasure">Diving For Treasure</a>
@@ -27,40 +27,42 @@
             </div>
         </div>
 
-        <a href="homepage.html"><h1>Nathan Wijnberg</h1></a>
-        <a href="projectpagina.html"><h2>Projectpagina</h2></a>
-        <a href="contact.html"><h2>Contact</h2></a>
+        <h1><a class="NathanWijnberg" href="homepage.html">Nathan Wijnberg</a></h1>
+        <h2><a href="projectpagina.html">Projectpagina</a></h2>
+        <h2><a href="contact.html">Contact</a></h2>
     </div>
 </header>
 
 <main>
+    <form>
+        <div class="BelangstellingsForm">
 
-    <div class="allTextOnPage">
-        <form>
+            <label for="firstname">Voornaam: </label>
+            <input type="text" id="firstname" placeholder="Nathan"/>
 
-            <div class="BelangstellingsForm">
+            <label for="lastname">Achternaam: </label>
+            <input type="text" id="lastname" placeholder="Wijnberg"/>
 
-                <label for="firstname">Voornaam: </label>
-                <input type="text" id="firstname" placeholder="Nathan"/>
+            <label for="projectname">Project: </label>
+            <input type="text" id="projectname" placeholder="Tron: Corruption"/>
 
-                <label for="lastname">Achternaam: </label>
-                <input type="text" id="lastname" placeholder="Wijnberg"/>
-
-                <label for="projectname">Project: </label>
-                <input type="text" id="projectname" placeholder="Tron: Corruption"/>
-
-                <label for="omschrijvingBelangstelling">Inhoud: </label>
-                <textarea id="omschrijvingBelangstelling" placeholder="Typ hier iets..."></textarea>
-                <button type="submit">verzenden</button>
-            </div>
-        </form>
-
-        <div class="GoogleMaps">
-            <img src="images/maps.PNG" alt="Google Maps"/>
+            <label for="omschrijvingBelangstelling">Inhoud: </label>
+            <textarea id="omschrijvingBelangstelling" placeholder="Typ hier iets..."></textarea>
+            <button type="submit">verzenden</button>
         </div>
+    </form>
+
+    <div class="Contactgegevens">
+        <h3>Contactgegevens: </h3>
+        <p>Telefoon: 06-30277104</p>
+        <p>e-mail: nathanwijnberg2001@gmail.com / nwijnberg2001@gmail.com</p>
+        <p>Instagram: nathan.wijnberg</p>
     </div>
 
+    <img src="images/maps.PNG" alt="Google Maps"/>
 </main>
+
+
 
 <footer>
     <div class="underinformation">
