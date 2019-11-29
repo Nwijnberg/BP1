@@ -1,49 +1,3 @@
-body
-{
-    background: white;
-}
-
-@media screen and (max-width: 400px) {
-    .homepageNavBox {
-        flex-direction: column;
-    }
-}
-
-.homepageNavBox {
-    color: white;
-    background: black;
-    display: flex;
-    justify-content: space-around;
-    text-decoration: none;
-    margin: -8px;
-}
-
-.homepageNavBox h2 {
-    font-size: 25px;
-    margin-top: 18px;
-    margin-bottom: 18px;
-}
-
-.homepageNavBox h1 {
-    font-size: 30px;
-    margin-top: 6%;
-    margin-bottom: 13px;
-}
-
-.homepageNavBox a {
-    text-decoration: none;
-    color: red;
-}
-
-.homepageNavBox a:hover {
-    text-decoration: none;
-    color: red;
-}
-
-.homepageNavBox a:visited {
-    color: white;
-}
-
 .homepageImages {
     display: flex;
     flex-wrap: wrap;
@@ -55,5 +9,5 @@ body
     border: 5px solid black;
     margin-right: 1%;
     margin-top: 5%;
-    size: 10%;
+    margin-bottom: 90px;
 }

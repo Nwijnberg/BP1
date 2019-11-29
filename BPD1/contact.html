@@ -4,14 +4,29 @@
     <meta charset="UTF-8">
     <title>Contact</title>
     <link rel="stylesheet" href="css/contact.css">
-    <meta name='viewport' 	content='width=device-width, initial-scale=1.0' />
+    <link rel="stylesheet" href="css/joined.css">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'/>
 </head>
 <body>
 
 <header>
-    <div class="contactNavBox">
-        <a href="Personalia.html"><h2>Personalia</h2></a>
-        <a href="Projecten.html"><h2>Projecten</h2></a>
+    <div class="NavBox">
+        <a href="personalia.html"><h2>Personalia</h2></a>
+
+        <div class="dropdown">
+            <button class="dropbtn"><a href="projecten.html"><h2>Projecten</h2></a></button>
+            <div class="dropdown-content">
+                <a href="projecten.html#TronCorruption">Tron: Corruption</a>
+                <a href="projecten.html#DivingForTreasure">Diving For Treasure</a>
+                <a href="projecten.html#WorldOfWonders">World Of Wonders</a>
+                <a href="projecten.html#Profielwerkstuk">Profielwerkstuk</a>
+                <a href="projecten.html#StageKruudwis">Stage Kruudwis</a>
+                <a href="projecten.html#ProjectClash">Project Clash</a>
+                <a href="projecten.html#Singelloop">Singelloop 2016</a>
+                <a href="projecten.html#Zomerkamp">Zomerkamp Scouting</a>
+            </div>
+        </div>
+
         <a href="homepage.html"><h1>Nathan Wijnberg</h1></a>
         <a href="projectpagina.html"><h2>Projectpagina</h2></a>
         <a href="contact.html"><h2>Contact</h2></a>
@@ -19,12 +34,39 @@
 </header>
 
 <main>
-    <form class="BelangstellingsForm">
-        Project: <input type="text" id="projetname" />
-        Wat je wilt doorgeven: <input type="text" id="omschrijvingBelangstelling" />
-        <button type="submit">verzend je bericht</button>
-    </form>
+
+    <div class="allTextOnPage">
+        <form>
+
+            <div class="BelangstellingsForm">
+
+                <label for="firstname">Voornaam: </label>
+                <input type="text" id="firstname" placeholder="Nathan"/>
+
+                <label for="lastname">Achternaam: </label>
+                <input type="text" id="lastname" placeholder="Wijnberg"/>
+
+                <label for="projectname">Project: </label>
+                <input type="text" id="projectname" placeholder="Tron: Corruption"/>
+
+                <label for="omschrijvingBelangstelling">Inhoud: </label>
+                <textarea id="omschrijvingBelangstelling" placeholder="Typ hier iets..."></textarea>
+                <button type="submit">verzenden</button>
+            </div>
+        </form>
+
+        <div class="GoogleMaps">
+            <img src="images/maps.PNG" alt="Google Maps"/>
+        </div>
+    </div>
+
 </main>
+
+<footer>
+    <div class="underinformation">
+        <p>&copy;2019 &nbsp; &nbsp; &nbsp; Nathan Wijnberg &nbsp; &nbsp; &nbsp; 634577 &nbsp; &nbsp; &nbsp; ITN-1C</p>
+    </div>
+</footer>
 
 </body>
 </html>

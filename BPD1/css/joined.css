@@ -1,0 +1,128 @@
+body {
+    background-color: white;
+}
+
+/* Navigatie */
+
+.NavBox {
+    color: white;
+    background: black;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    margin: -8px;
+}
+
+.NavBox h2 {
+    font-size: 25px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.NavBox h1 {
+    font-size: 30px;
+    margin-top: 6%;
+    margin-bottom: 13px;
+}
+
+.NavBox a {
+    color: white;
+    text-decoration: none;
+}
+
+.NavBox a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/* Dropdown Menu */
+
+.dropbtn {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 0px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Specifaties voor scherm mobiel */
+
+@media screen and (max-width: 700px) {
+    .NavBox {
+        flex-direction: column;
+    }
+
+    .allTextOnPage div {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    img {
+        max-width: 40%;
+    }
+
+    video {
+        max-width: 70%;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (min-width: 701px) {
+    .allTextOnPage div {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    img {
+        max-width: 20%;
+    }
+
+    video {
+        max-width: 50%;
+        margin-bottom: 50px;
+    }
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+}
+
+/* footer */
+.underinformation {
+    display: block;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.underinformation p {
+    margin-bottom: 10px;
+}

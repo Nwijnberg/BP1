@@ -1,89 +1,28 @@
-body {
-    background: white;
-}
-
-@media screen and (max-width: 400px) {
-    .personaliaNavBox {
-        flex-direction: column;
-    }
-}
-
-.personaliaNavBox {
-    color: white;
-    background: black;
-    display: flex;
-    justify-content: space-around;
-    text-decoration: none;
-    margin: -8px;
-}
-
-.personaliaNavBox h2 {
-    font-size: 25px;
-    margin-top: 18px;
-    margin-bottom: 18px;
-}
-
-.personaliaNavBox h1 {
-    font-size: 30px;
-    margin-top: 6%;
-    margin-bottom: 13px;
-}
-
-.personaliaNavBox a {
-    text-decoration: none;
-    color: red;
-}
-
-.personaliaNavBox a:hover {
-    text-decoration: none;
-    color: red;
-}
-
-.personaliaNavBox a:visited {
-    color: white;
-}
-
-.School2 {
-    margin-left: 15px;
-}
-
-.PersonaliaText {
+.PersoonlijkeInfo {
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
-.PersoonlijkeInfo {
-    margin-left: 25%;
-    margin-right: 400px;
-    margin-bottom: 40px;
+.Familie {
+    margin-bottom: 50px;
 }
 
-.familie {
-    margin-left: 25%;
-    margin-right: 400px;
-    margin-bottom: 40px;
+.Opleidingen {
+    margin-bottom: 50px;
 }
 
-.Opledingen {
-    margin-left: 25%;
-    margin-right: 400px;
-    margin-bottom: 40px;
-}
-
-.Werkervaring {
-    margin-left: 25%;
-    margin-right: 400px;
-    margin-bottom: 40px;
+.Werk {
+    margin-bottom: 50px;
 }
 
 .Hobbys {
-    margin-left: 25%;
-    margin-right: 400px;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 
-.SpecialeKaraktertrekken {
-    margin-left: 25%;
-    margin-right: 400px;
-    margin-bottom: 40px;
+.SpecialeTrekjes {
+    margin-bottom: 50px;
+}
+
+.School2 {
+    margin-left: 2%;
 }
