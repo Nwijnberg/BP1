@@ -1,0 +1,13 @@
+.homepageImages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top:4%;
+}
+
+.homepageImages img {
+    border: 5px solid black;
+    margin-right: 1%;
+    margin-top: 5%;
+    margin-bottom: 90px;
+}
