@@ -1,3 +1,5 @@
+<!-- Nathan Wijnberg | Januari 2020 -->
+
 <!DOCTYPE html>
 <html lang="nl">
 <head>
@@ -9,9 +11,10 @@
 </head>
 <body>
 
-<?php include 'html/header.html' ?>
+<?php include 'header.php' ?>
 
 <main>
+
     <div class="homepageImages">
         <img src="images/small/diploma.jpg" alt="Diploma-uitreiking">
         <img src="images/small/galapak.jpg" alt="Galapak">
@@ -20,7 +23,9 @@
     </div>
 </main>
 
-<?php include 'html/Footer.html' ?>
+<?php echo $_SESSION['gebruikersnaam']; ?>
+
+<?php include 'footer.php' ?>
 
 </body>
 </html>

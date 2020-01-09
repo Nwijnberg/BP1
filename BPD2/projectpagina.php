@@ -1,3 +1,5 @@
+<!-- Nathan Wijnberg | Januari 2020 -->
+
 <!DOCTYPE HTML>
 <html lang="nl">
 <head>
@@ -9,13 +11,14 @@
 </head>
 <body>
 
-<?php include 'html/header.html' ?>
+<?php include 'header.php' ?>
 
 <main>
     <div class="allTextOnPage">
 
         <div class="titleText">
             <h2>Tron: Corruption</h2>
+            <?php echo $_SESSION['gebruikersnaam']; ?>
             <h3>Objects</h3>
         </div>
 
@@ -144,7 +147,7 @@
 
 </main>
 
-<?php include 'html/Footer.html' ?>
+<?php include 'footer.php' ?>
 
 </body>
 </html>

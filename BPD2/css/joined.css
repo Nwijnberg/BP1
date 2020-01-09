@@ -13,6 +13,11 @@ body {
     margin: -8px;
 }
 
+.NavBox h3 {
+    margin-top: 1.45%;
+    margin-bottom: 10px;
+}
+
 .NavBox h2 {
     font-size: 25px;
     margin-top: 18px;

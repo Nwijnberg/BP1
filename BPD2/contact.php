@@ -1,3 +1,5 @@
+<!-- Nathan Wijnberg | Januari 2020 -->
+
 <!DOCTYPE html>
 <html lang="nl">
 <head>
@@ -9,10 +11,10 @@
 </head>
 <body>
 
-<?php include 'html/header.html' ?>
+<?php include 'header.php' ?>
 
 <main>
-    <form>
+    <form target="_blank" method="POST">
         <div class="BelangstellingsForm">
 
             <label for="firstname">Voornaam: </label>
@@ -33,14 +35,14 @@
     <div class="Contactgegevens">
         <h3>Contactgegevens: </h3>
         <p>Telefoon: 06-30277104</p>
-        <p>e-mail: nathanwijnberg2001@gmail.com / nwijnberg2001@gmail.com</p>
+        <p>e-mail: nathanwijnberg2001@gmail.com</p>
         <p>Instagram: nathan.wijnberg</p>
     </div>
 
     <img src="images/maps.PNG" alt="Google Maps"/>
 </main>
 
-<?php include 'html/Footer.html' ?>
+<?php include 'footer.php' ?>
 
 </body>
 </html>

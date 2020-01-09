@@ -1,3 +1,5 @@
+<!-- Nathan Wijnberg | Januari 2020 -->
+
 <!DOCTYPE html>
 <html lang="nl">
 <head>
@@ -9,7 +11,7 @@
 </head>
 <body>
 
-<?php include 'html/header.html' ?>
+<?php include 'header.php' ?>
 
 <main>
     <div class="allTextOnPage">
@@ -191,7 +193,7 @@
     </div>
 </main>
 
-<?php include 'html/Footer.html' ?>
+<?php include 'footer.php' ?>
 
 </body>
 </html>
